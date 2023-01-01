@@ -29,7 +29,18 @@ function SliderSection() {
                 </div> 
               </div>
               <div className="basis-2/4" >
-              <img src={SlideTwo} />
+                  <div className="avatar common-avatar">
+                      <img src={SlideOne} />
+                  </div>
+                  <div className="avatar-one common-avatar">
+                      <img src={SlideTwo} />
+                  </div>
+                  <div className="avatar-three common-avatar">
+                  <img src={SlideTwo} />
+                  </div>
+                  <div className="avatar-two common-avatar">
+                  <img src={SlideTwo} />
+                  </div>
               </div>
             </div>
           </div>
@@ -52,7 +63,7 @@ function SliderSection() {
             </div>
           </div>
 
-          <div className='sliderMainDiv'>
+          <div className='sliderMainDiv '>
             <div className='flex basis-full items-center '>
               <div className="textSlider basis-2/4" >
                 <h3 className='text-3xl font-sans font-medium px-4'>Donate us to support

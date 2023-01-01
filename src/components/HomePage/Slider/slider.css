@@ -3,3 +3,55 @@
     display: flex !important;
     
 }
+.common-avatar{
+    box-sizing: border-box;
+	border: 5px white solid;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+.avatar {
+	width: 150px;
+	height: 150px;
+    margin-top: 50px;
+    margin-left: 20%;
+	
+	
+}
+.avatar-one {
+	width: 270px;
+	height: 270px;
+	margin-left: 50%;
+    margin-top: -30px;
+}
+.avatar-two {
+	width: 150px;
+	height: 150px;
+	margin-left: 30%;
+}
+.avatar-three {
+	width: 130px;
+	height: 130px;
+	margin-left:20%;
+    margin-top: -200px;
+	
+}
+img { width: 100%; height: auto; }
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
