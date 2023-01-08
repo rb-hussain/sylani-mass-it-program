@@ -6,6 +6,7 @@ import SlideTwo from './SliderImages/slide-two.png';
 function SliderSection() {
     const settings = {
         dots: true,
+        arrows: false,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
