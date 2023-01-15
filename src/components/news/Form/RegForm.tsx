@@ -1,4 +1,5 @@
 import { Button, Form, Input, InputNumber } from 'antd';  
+import  './form.css';
 const layout = {
   labelCol: { span: 8 },
   wrapperCol: { span: 16 },
