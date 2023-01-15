@@ -7,7 +7,7 @@ function NewsContent(){
      <>
     <div className="container-fluid ">
         <div className="container">
-            <div className="row text-center">
+            <div className="row text-center my-20">
                 <div className="news-content">
                 <h1 className=" text-3xl px">{newsHeading}</h1>
                 <p className=" px-40 py-5">{newsPara}</p>

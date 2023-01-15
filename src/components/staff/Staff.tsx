@@ -1,7 +1,9 @@
+import StaffContent from "./StaffContent";
 
 function Staff(){
 return(
     <>
+    <StaffContent />
     </>
 );
 };

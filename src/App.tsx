@@ -5,6 +5,7 @@ import Navbar from './components/header/Navbar';
 import Courses from './components/HomePage/courses/Courses';
 import SliderSection from './components/HomePage/Slider/Slider';
 import News from './components/news/News';
+import Staff from './components/staff/Staff';
 function App() {
   return (
     <div>
@@ -12,6 +13,7 @@ function App() {
       <SliderSection  />
       <Courses />
       <News />
+      <Staff />
       <FooterMain />
     </div>
   );
